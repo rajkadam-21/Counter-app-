@@ -1,6 +1,42 @@
-
+/* {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 div{
   
   text-align: center;
   font-size: xx-large;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100wh;
+  background: rgb(38, 168, 208);
+  
+}
+
+#sub{
+  padding:px;
+  width: 30px;
+  margin: 20px;
+  background: #d7b805;
+
+}
+#add{
+  padding:px;
+  width: 30px;
+  margin: 20px;
+  background: #d7b805;
+
+}
+
+#reset{
+  padding:px;
+  width: 50px;
+  margin: 20px;
+background: #d7b805;
 }
